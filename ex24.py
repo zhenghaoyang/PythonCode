@@ -1,6 +1,6 @@
 # --coding: utf-8 --
 print "Let's practice everything."
-print 'You\'d need to know \'bout escape with \\ that do \n newlins and \t tabs.'
+print "You\'d need to know \'bout escape with \\ that do \n newlins and \t tabs."
 poem = """
 \tThe lovely world 
 with logic so firmly planted
@@ -36,3 +36,13 @@ start_point = start_point/10
 print "We can also do that this way:"
 print "We'd have %d beans,%d jars ,and %d crates." %secret_formula(start_point)
 
+
+#加分题
+'''
+()不完整
+SyntaxError: unexpected character after line continuation character
+
+字符串引号前后不一致 'String"
+SyntaxError: EOL while scanning string literal
+
+'''
